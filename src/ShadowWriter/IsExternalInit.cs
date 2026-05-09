@@ -9,6 +9,6 @@ namespace System.Runtime.CompilerServices;
 /// This dummy class is required to compile records when targeting .NET Standard
 /// </summary>
 [EditorBrowsable(EditorBrowsableState.Never)]
-public static class IsExternalInit
+internal static class IsExternalInit
 {
 }
